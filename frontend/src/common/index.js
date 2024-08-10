@@ -1,4 +1,4 @@
-const backendUrl = "https://mern-ecommerce-website-go3g.onrender.com"
+const backendUrl = "http://localhost:8080/v1"
 
 const summeryApi = {
     signUp : {
