@@ -8,7 +8,7 @@ const cookieParser = require('cookie-parser')
 const app = express()
 
 app.use(cors({
-   origin: "https://mern-ecommerce-website-1-rgwu.onrender.com",
+   origin: "http://localhost:3000",
    credentials: true,
    methods: ['POST', 'GET', 'OPTIONS'],
    allowedHeaders: ['Content-Type', 'Authorization'],
