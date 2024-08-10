@@ -1,4 +1,4 @@
-const backendUrl = "mern-ecommerce-website-smoky.vercel.app"
+const backendUrl = "https://mern-ecommerce-website-smoky.vercel.app"
 
 const summeryApi = {
     signUp : {
