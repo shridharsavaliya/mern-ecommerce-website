@@ -8,7 +8,7 @@ const cookieParser = require('cookie-parser')
 const app = express()
 
 app.use(cors({
-   origin :"https://mern-ecommerce-website-frontend.vercel.app/",
+   origin :"https://mern-ecommerce-website-frontend.vercel.app",
    credentials : true ,
    methods: ['POST', 'GET']
 }))
