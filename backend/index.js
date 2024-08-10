@@ -8,12 +8,13 @@ const cookieParser = require('cookie-parser')
 const app = express()
 
 app.use(cors({
-   origin :"https://mern-ecommerce-website-frontend.vercel.app",
-   credentials : true ,
-   methods: ['post', 'get',"put","delete"]
+   origin: "https://mern-ecommerce-website-frontend.vercel.app",
+   credentials: true,
+   methods: ['POST', 'GET', 'OPTIONS'],
+   allowedHeaders: ['Content-Type', 'Authorization'],
 }))
 
-const PORT = 8080 || process.env.PORT
+const PORT = 8080
 
 app.listen(PORT,()=>{
     console.log("server is running")
