@@ -9,7 +9,8 @@ const app = express()
 
 app.use(cors({
    origin :"https://mern-ecommerce-website-frontend.vercel.app",
-   credentials : true 
+   credentials : true ,
+   methods: ['POST', 'GET']
 }))
 
 const PORT = 8080 || process.env.PORT
